@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: #202124;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 0 4em;
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  padding-right: 1em;
+}
+
+nav ul li {
+  padding: 1.3em 0.4em;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.search {
+  align-self: center;
+}
+
+.search__btn button {
+  background-color: #47484d60;
+  border: 1px solid #47484d60;
+  border-radius: 3px;
+  padding: 0.5em 0.5em;
+  height: 36px;
+  font-size: 14px;
+  color: #e8eaed;
+  margin: 0 0.3em;
+  cursor: pointer;
+}
+
+.search__text {
+  color: #bdc1c6;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.search > * {
+  margin: 0.9em 0;
+  text-align: center;
+}
+
+.search__input {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.6em;
+  width: 584px;
+  border: 1px solid #5f6368;
+  background-color: #202124;
+  border-radius: 24px;
+  height: 44px;
+  z-index: 2;
+}
+
+.search__input input {
+  width: 90%;
+  height: 90%;
+  background-color: #202124;
+  outline: none;
+  border: none;
+  color: white;
+}
+
+.search__input__absolute:first-of-type {
+  padding-right: 20px;
+}
+
+.search__input__absolute:last-child {
+  padding-left: 20px;
+}
+
+footer {
+  background-color: #171717;
+}
+
+.top {
+  border-bottom: 1px solid #999da2;
+}
+
+.top p {
+  color: #999da2;
+  padding: 0.8em 0;
+  font-size: 15px;
+}
+
+.middle a {
+  text-decoration: none;
+  color: #999da2;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.9em;
+  padding-bottom: 0.9em;
+}
+
+.bottom ul li a {
+  text-decoration: none;
+  color: #999da2;
+  font-size: 14px;
+  padding: 0 0.3em;
+}
+
+.bottom ul {
+  display: flex;
+}
